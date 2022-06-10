@@ -6,11 +6,20 @@ Tom is preparing a product launch meeting to roll out the new product. But  Tom 
 
 - What metrics should we look at? There are a few concerns, our KPIs move up or down? Does a user spend more time on Netflix? etc.
 
+
+
 - If I want to test daily active users ratio and user's retention (how many minutes they spend on Netflix), what tests should I use. Rigorously, what is the Null Hypothesis.
+
+T-test
+2 samples
+unequal 
 
 - Another concern for Tom is, leadership team may be interested in lift, which is defined as compared with control groups, what is the increase for recommender system version 1 and version 2. Specifically, in this case, they want to know how many more hours does a user spend in different groups.
    - Compare version1 and control group
    - Compare version2 and control group
+
+
+
 
 |     |users |weekly_hours     |group    |
 |:----|:-----|:----------------|:--------|
